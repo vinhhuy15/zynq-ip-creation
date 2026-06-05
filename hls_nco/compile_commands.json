@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=nco",
+      "-c",
+      "D:\\subjects\\Thiet_ke_HW_SW\\zynq-book\\hls_nco\\nco.cpp"
+    ],
+    "file": "D:\\subjects\\Thiet_ke_HW_SW\\zynq-book\\hls_nco\\nco.cpp"
+  },
+  {
+    "directory": "D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "D:\\subjects\\Thiet_ke_HW_SW\\zynq-book\\hls_nco\\nco_tb.cpp"
+    ],
+    "file": "D:\\subjects\\Thiet_ke_HW_SW\\zynq-book\\hls_nco\\nco_tb.cpp"
+  }
+]

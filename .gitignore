@@ -22,3 +22,40 @@ _ide/.wsdata
 
 # Ignore local document QA/render artifacts
 _analysis/
+
+# Ignore temporary Office lock files
+~$*
+
+# Ignore Vivado/Vitis generated cache/build artifacts
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+.Xil/
+_ide/
+**/.Xil/
+**/.cache/
+**/.db/
+**/.metadata/
+**/.autopilot/
+**/*.cache/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/Debug/
+**/Release/
+**/build/
+**/logs/
+**/slprj/
+**/xsim.dir/
+hls_nco/nco/hls/.debug/
+hls_nco/nco/hls/csim/
+hls_nco/nco/hls/sim/
+
+# Ignore generated platform/cache folders that are not needed for source submission
+led_controller/.rigel_lopper/
+led_controller/led_controller_platform/
+hdl_coder_lms/*.slxc

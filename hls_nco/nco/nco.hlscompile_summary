@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\nco.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/05/26 21:35:10",
+ "timestampMillis": "1780670110045",
+ "buildStep": {
+  "cmdId": "beb605bf-f74e-4341-a3fc-3d8f6070a48e",
+  "name": "v++",
+  "logFile": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\logs\\nco.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\hls_config.cfg --work_dir nco ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\hls_config.cfg",
+   "--work_dir",
+   "nco"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\hls_config.cfg",
+    "content": "part=xc7z020clg484-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=nco\nsyn.file=../../zynq-book/hls_nco/nco.cpp\ntb.file=../../zynq-book/hls_nco/nco_tb.cpp\nclock_uncertainty=10ns"
+   }
+  ],
+  "cwd": "D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/05/26 21:35:10",
+ "timestampMillis": "1780670110045",
+ "status": {
+  "cmdId": "beb605bf-f74e-4341-a3fc-3d8f6070a48e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114753",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "nco",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/subjects\\Thiet_ke_HW_SW\\zynq-book\\hls_nco\\nco.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114754",
+ "buildStep": {
+  "cmdId": "3e83633c-5adf-437b-afc5-682c0db774bf",
+  "name": "",
+  "logFile": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114755",
+ "status": {
+  "cmdId": "3e83633c-5adf-437b-afc5-682c0db774bf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114755",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114756",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:14",
+ "timestampMillis": "1780670114757",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141608",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141609",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141610",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141611",
+ "status": {
+  "cmdId": "3e83633c-5adf-437b-afc5-682c0db774bf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141727",
+ "status": {
+  "cmdId": "beb605bf-f74e-4341-a3fc-3d8f6070a48e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141751",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\reports\\v++_compile_nco_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/05/26 21:35:41",
+ "timestampMillis": "1780670141751",
+ "report": {
+  "path": "D:/subjects\\Thiet_ke_HW_SW\\tuan6\\hls_nco\\nco\\reports\\.db\\v++_compile_nco_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,4 @@
+domain_path: D:\subjects\Thiet_ke_HW_SW\tuan6\led_controller\led_controller_platform\export\led_controller_platform\sw\standalone_ps7_cortexa9_0
+app_src_dir: C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c
