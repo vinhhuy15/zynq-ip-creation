@@ -6,4 +6,4 @@ Repo nay gom source code cho ba phan cua Lab 4:
 - **4B - LMS IP tu HDL Coder**: `hdl_coder_lms/` va `lms_packaging/`
 - **4C - NCO IP tu Vitis HLS**: `hls_nco/`
 
-Bao cao Lab 4 nam trong file `Lab4 HW_SW.docx`.
+Bao cao Lab 4 thi nam trong file `Lab4 HW_SW.docx`.
